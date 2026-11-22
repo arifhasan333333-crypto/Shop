@@ -23,6 +23,12 @@
     "better-sqlite3": "^12.4.1",
     "motion": "^12.23.24"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild"
+    ]
+  },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "autoprefixer": "^10.4.21",
